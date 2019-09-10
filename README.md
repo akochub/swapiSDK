@@ -1,4 +1,3 @@
-```Something is not right```
 ## Simple Star Wars API SDK (https://swapi.co)
 
 #### Includes access to all endpoints with additional support for filtering

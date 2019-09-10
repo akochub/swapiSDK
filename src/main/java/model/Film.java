@@ -151,15 +151,15 @@ public class Film implements Requestable {
     }
 
     public List<Vehicle> getVehicleList() {
-        return APIListUtil.initFromUrls(vehicleList, vehicles, Starship.class);
+        return APIListUtil.initFromUrls(vehicleList, vehicles, Vehicle.class);
     }
 
     public List<Character> getCharacterList() {
-        return APIListUtil.initFromUrls(characterList, characters, Starship.class);
+        return APIListUtil.initFromUrls(characterList, characters, Character.class);
     }
 
     public List<Planet> initFromUrls() {
-        return APIListUtil.initFromUrls(planetList, planets, Starship.class);
+        return APIListUtil.initFromUrls(planetList, planets, Planet.class);
     }
 
     @Override
